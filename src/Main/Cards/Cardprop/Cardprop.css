@@ -1,0 +1,84 @@
+.cardprop{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 616px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.buttonoffice {
+    background-color: #2196F3; 
+    border: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.title {
+    padding-left: 5px;
+    font-size: 30px;
+    color: #757575;
+}
+
+.date{
+    color: #757575;
+    font-size: 15px;
+    margin: 0 auto;
+    justify-self: flex-start;
+}
+
+.allbut {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    justify-content: flex-end;
+    border-style: solid;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    border-bottom-color: #757575;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.button2 {
+    border: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+    
+    
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.innericon {
+    color: #757575;
+    font-size: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.innericon:hover {
+    color: #2196F3;
+}
