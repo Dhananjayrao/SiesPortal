@@ -1,0 +1,33 @@
+.mainForm{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 800px;
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.formElements {
+  padding: 10px;
+  
+}
+
+.elements1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2px;
+    padding-top: 10px;
+    border-radius: 5px;
+    
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

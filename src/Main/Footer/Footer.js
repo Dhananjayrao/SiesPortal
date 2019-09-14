@@ -1,13 +1,24 @@
 import React, { Component } from 'react';
 import './Footer.css'
 import {FaCopyright} from 'react-icons/fa'
-function Footer (){
+/*function Footer (){
      
-        return ( <div className={'container'}>
-                <div className={'footertext'}><FaCopyright/> 2018 Copyright SIESGST</div>
-                <div className={'footertext'}>Developed By Some People</div>
-        </div> );
+        return ( <footer className={'container'}>
+                <div className='footer text-center'><FaCopyright/> 2018 Copyright SIESGST</div>
+                <div className='footer-text'>All rights reserved</div>
+        </footer> );
     
+}*/
+
+function Footer (){
+        return (<div>
+                <div className="content">
+                        <div className="content-inside">
+                                2018 copyright SIESGST
+                        </div>
+                </div>
+                <footer class="footer"></footer>
+                </div>)
 }
  
 export default Footer;

@@ -1,0 +1,22 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 455px;
+
+}
+
+.innerComponent {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.compText {
+    padding-left: 10px;
+    font-size: 20px
+}

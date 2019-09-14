@@ -1,16 +1,32 @@
 import React, { Component } from 'react';
-import './Carousel.css'
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
+import {Carousel} from 'react-bootstrap';
 
-function Carousel (){
-   return ( 
-    <AwesomeSlider>
-    <div  data-src="https://react-slideshow.herokuapp.com/images/slide_7.jpg" />
-    <div data-src="https://react-slideshow.herokuapp.com/images/slide_6.jpg" />
-    <div data-src="https://react-slideshow.herokuapp.com/images/slide_5.jpg" />
-  </AwesomeSlider>
-    )
+function Images () {
+  return (
+    <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="https://portal.siesgst.ac.in/assets/redlocal.png"
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="https://portal.siesgst.ac.in/assets/redlocal.png"
+      alt="Third slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="https://portal.siesgst.ac.in/assets/redlocal.png"
+      alt="Third slide"
+    />
+   </Carousel.Item>
+</Carousel>    
+  )
 }
-   
-export default Carousel;
+
+export default Images;

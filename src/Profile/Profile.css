@@ -1,0 +1,84 @@
+.profileCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:890px;
+    margin:0 auto;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.profileImage {
+    background-image: url("https://portal.siesgst.ac.in/assets/user-profile-bg.jpg");
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.profileLetter {
+    color: white;
+    background-color: #757575;
+    width: 90px;
+    height: 90px;
+    margin-top: 105px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 45px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.profileDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.primaryInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profileText {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtext {
+    color: #757575;
+    font-size: 15px;
+    margin-left: 35px;
+
+}
+
+.updateButton {
+  background-color: #2196F3; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  width:100%
+}
+
+.updateButton:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}

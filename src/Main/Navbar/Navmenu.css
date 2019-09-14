@@ -27,12 +27,14 @@
 .letter1 {
     color: white;
     background-color: #757575;
-    width: 80px;
+    width: 60px;
+    height: 60px;
     margin-bottom: 20px;
     padding: 10px;
-    border-radius: 58%;
+    border-radius: 50%;
     margin-left: 10px;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .navmenu.open {
@@ -50,6 +52,8 @@
 .name {
     padding: 2px;
     font-size: 20px;
+    margin-left: 10px;
+    color:white;
 }
 
 .navmenu li {

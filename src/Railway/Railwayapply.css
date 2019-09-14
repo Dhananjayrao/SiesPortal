@@ -1,0 +1,45 @@
+.allCourses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.Title5 {
+    font-size: 35px;
+    color: #757575;
+}
+
+.Title6 {
+    font-size: 35px;
+    color: rgb(252, 41, 41);
+}
+
+.concession {
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.apply {
+    background-color: #2196F3; 
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin:0 auto;
+    width: 100px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:150px;
+  }
+  
